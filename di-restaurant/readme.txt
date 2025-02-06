@@ -1,7 +1,7 @@
 === Di Restaurant ===
 Contributors: dithemes
 Requires at least: 5.2
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -20,6 +20,10 @@ Navigate to WordPress Dashboard > Appearance > Customize
 
 
 == Changelog ==
+
+= 1.6 =
+* Tested with 6.7
+* Fix: Minor issues
 
 = 1.5 =
 * Tested with 6.6
@@ -95,7 +99,7 @@ Navigate to WordPress Dashboard > Appearance > Customize
 
 == Upgrade Notice ==
 
-= 1.4 =
+= 1.6 =
 * Normal release.
 
 == Resources ==
