@@ -1143,25 +1143,18 @@ Drop down menu background color hover + active
 	padding: 10px 20px 0 10px;
 }
 
-.comment-form-author,
-.comment-form-email,
-.comment-form-url {
-	float: left;
-	width: 25%;
-	padding: 10px;
-}
-
 .comment-form .comment-form-author,
 .comment-form-email,
 .comment-form-url label {
 	color: #999999;
 }
 
-.comment-form input[type=text],
-[type=email],
-[type=url] {
+.comment-form input[type="text"],
+[type="email"],
+[type="url"] {
 	border: solid 1px #ccc;
 	padding: 10px;
+	width: 100%;
 }
 
 .comment-form .comment-form-cookies-consent {
@@ -1181,9 +1174,9 @@ Drop down menu background color hover + active
 }
 
 .comment-form p.form-submit {
-	margin-bottom: 30px;
+	margin-bottom: 8px;
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 10px;
 	word-wrap: break-word;
 	clear: both;
 }

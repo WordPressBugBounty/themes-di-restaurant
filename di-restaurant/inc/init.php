@@ -40,8 +40,9 @@ if ( ! class_exists( 'Kirki' ) ) {
 	require get_template_directory() . '/inc/kirki/kirki/kirki.php';
 }
 
-// Include the kirki options file.
-require get_template_directory() . '/inc/kirki/kirki-options.php';
-
-
+// kirki-options.php file contain translation ready text so should be load at init or later otherwise throw PHP Notice.
+add_action( 'init', function() {
+	// Include the kirki options file.
+	require get_template_directory() . '/inc/kirki/kirki-options.php';	
+} );
 
